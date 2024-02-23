@@ -20,7 +20,8 @@ public class TestUserProfile {
        
         System.out.print("Enter your favorite actor: ");
         String favoriteActor = scanner.nextLine();
-        
+
+        /** Made the changes in the TestUserProfile**/
        
         UserProfile userProfile = new UserProfile(name, favoriteActor);
         
